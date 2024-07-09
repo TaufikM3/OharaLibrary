@@ -14,9 +14,9 @@
 </template>
 
 <script>
-import navbar from "./components/navbar";
+import navbar from './components/navbar';
 export default {
-  name: "App",
+  name: 'App',
   data: () => {
     return {
       a: true,
@@ -32,7 +32,6 @@ export default {
   },
 };
 </script>
-
 <style>
-    @import url("../src/assets/style/style.css");
+@import url('../src/assets/style/style.css');
 </style>
