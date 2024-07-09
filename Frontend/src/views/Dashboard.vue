@@ -6,7 +6,21 @@
 </template>
 
 <script>
+import student from "../components/student";
+import employee from "../components/employee";
 
+export default {
+    name: "dashboard",
+    components: {
+        student,
+        employee,
+    },
+    computed: {
+        userInfo() {
+            return this.$store.state.userInfo;
+        },
+    },
+};
 </script>
 
 <style>
