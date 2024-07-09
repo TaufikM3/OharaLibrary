@@ -1,0 +1,9 @@
+/Backend/node_modules
+/Backend/.vscode
+/Backend/package-lock.json
+
+/Frontend/.vscode
+/Frontend/node_modules
+/Frontend/package-lock.json
+
+.vscode
